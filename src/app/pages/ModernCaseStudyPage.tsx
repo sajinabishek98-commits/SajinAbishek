@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { ArrowLeft } from 'lucide-react';
 import { projectData } from '../data/projects';
 import IIMUDesignComponent from '../../imports/Group1707479481-1/Group1707479481';
+import fallbackCaseStudyImage from '../../imports/image-22.png';
 
 export default function ModernCaseStudyPage() {
   const { projectId } = useParams<{ projectId: string }>();
@@ -120,7 +121,7 @@ export default function ModernCaseStudyPage() {
         >
           <div className="w-full">
             <img
-              src={project.image || '/src/imports/image-22.png'}
+              src={project.image || fallbackCaseStudyImage}
               alt={project.title}
               className="w-full h-auto rounded-2xl"
             />

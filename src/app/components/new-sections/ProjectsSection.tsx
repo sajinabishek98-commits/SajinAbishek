@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { useState } from 'react';
 import ProjectModal from '../ProjectModal';
+import ken42Thumbnail from '../../../imports/image-1.png';
 
 export default function ProjectsSection() {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
@@ -12,7 +13,7 @@ export default function ProjectsSection() {
       description:
         'Redesigned a fragmented higher-ed platform into a scalable, user-friendly system for students, faculty, and administrators.',
       tags: ['UX/UI Design', 'Design Systems', 'EdTech'],
-      thumbnail: '/src/imports/image-1.png',
+      thumbnail: ken42Thumbnail,
     },
     {
       id: 'iimu',

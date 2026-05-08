@@ -1,6 +1,9 @@
 import { motion } from 'motion/react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
+import ken42Preview from '../../../imports/image-3.png';
+import iimuPreview from '../../../imports/image-15.png';
+import mcaPreview from '../../../imports/image-25.png';
 
 export default function ModernWork() {
   const navigate = useNavigate();
@@ -13,7 +16,7 @@ export default function ModernWork() {
       description: 'Redesigned a legacy higher-ed platform into a scalable system',
       year: '2024-2025',
       tags: ['UX/UI', 'Design Systems', 'EdTech'],
-      image: '/src/imports/image-3.png',
+      image: ken42Preview,
     },
     {
       id: 'iimu',
@@ -22,7 +25,7 @@ export default function ModernWork() {
       description: 'Modern educational institution website',
       year: '2024',
       tags: ['Web Design', 'Branding'],
-      image: '/src/imports/image-15.png',
+      image: iimuPreview,
     },
     {
       id: 'mca',
@@ -31,7 +34,7 @@ export default function ModernWork() {
       description: 'Real-time cricket score tracking and match analytics',
       year: '2025',
       tags: ['Mobile Design', 'Real-Time Data'],
-      image: '/src/imports/image-25.png',
+      image: mcaPreview,
     },
   ];
 

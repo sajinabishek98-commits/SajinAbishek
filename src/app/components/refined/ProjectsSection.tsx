@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
+import ken42Thumbnail from '../../../imports/image-1.png';
 
 export default function ProjectsSection() {
   const navigate = useNavigate();
@@ -13,7 +14,7 @@ export default function ProjectsSection() {
       description:
         'Redesigning a fragmented higher-ed platform into a scalable, user-friendly system for students, faculty, and administrators.',
       tags: ['UX/UI Design', 'Design Systems', 'EdTech'],
-      thumbnail: '/src/imports/image-1.png',
+      thumbnail: ken42Thumbnail,
     },
     {
       id: 'iimu',

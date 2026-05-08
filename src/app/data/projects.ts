@@ -1,9 +1,13 @@
+import ken42HeroImage from '../../imports/image-22.png';
+import iimuHeroImage from '../../imports/image-30.png';
+import mcaHeroImage from '../../imports/image-29.png';
+
 export const projectData: Record<string, any> = {
   ken42: {
     title: 'Ken42',
     subtitle: 'Redesigning a Legacy Higher-Ed Platform',
     category: 'Web App - Case Study',
-    image: '/src/imports/image-22.png',
+    image: ken42HeroImage,
     metadata: {
       company: 'Ken42',
       role: 'Associate Product Designer',
@@ -87,7 +91,7 @@ export const projectData: Record<string, any> = {
     title: 'IIMU',
     subtitle: 'Application Portal - Product Design Case Study',
     category: 'Web App - Case Study',
-    image: '/src/imports/image-30.png',
+    image: iimuHeroImage,
     metadata: {
       company: 'IIM Udaipur',
       role: 'Product Designer',
@@ -222,7 +226,7 @@ export const projectData: Record<string, any> = {
     title: 'Mumbai T20',
     subtitle: 'Designing a Real-Time Cricket Experience in 7 Days',
     category: 'Mobile App - Case Study',
-    image: '/src/imports/image-29.png',
+    image: mcaHeroImage,
     metadata: {
       company: 'Mumbai T20',
       role: 'Product Designer',

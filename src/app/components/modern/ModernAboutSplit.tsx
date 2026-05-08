@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import profileImage from '../../../imports/6C672866-F7AB-403A-9767-6E76C1730AF3.JPG';
 
 export default function ModernAboutSplit() {
   return (
@@ -25,7 +26,7 @@ export default function ModernAboutSplit() {
             >
               <div className="aspect-square bg-gray-100 dark:bg-gray-800 rounded-3xl overflow-hidden border-2 border-gray-200 dark:border-gray-700 shadow-xl dark:shadow-2xl transition-all duration-300 hover:border-[#141414] dark:hover:border-[#E4FE52]">
                 <img
-                  src="/src/imports/6C672866-F7AB-403A-9767-6E76C1730AF3.JPG"
+                  src={profileImage}
                   alt="Sajin Abishek - Product Designer"
                   className="w-full h-full object-cover"
                 />

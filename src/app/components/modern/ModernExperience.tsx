@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import turbostartLogo from '../../../imports/image-26.png';
 
 export default function ModernExperience() {
   const experiences = [
@@ -6,7 +7,7 @@ export default function ModernExperience() {
       role: 'Product Designer',
       company: 'Turbostart',
       period: '2023 - Present',
-      logo: '/src/imports/image-26.png',
+      logo: turbostartLogo,
       logoType: 'image',
       description:
         'Leading design initiatives for multiple client projects, focusing on EdTech solutions and design systems.',
