@@ -87,7 +87,7 @@ export const projectData: Record<string, any> = {
     title: 'IIMU',
     subtitle: 'Application Portal - Product Design Case Study',
     category: 'Web App - Case Study',
-    image: '/src/imports/image-23.png',
+    image: '/src/imports/image-30.png',
     metadata: {
       company: 'IIM Udaipur',
       role: 'Product Designer',
@@ -222,7 +222,7 @@ export const projectData: Record<string, any> = {
     title: 'Mumbai T20',
     subtitle: 'Designing a Real-Time Cricket Experience in 7 Days',
     category: 'Mobile App - Case Study',
-    image: '/src/imports/image-25.png',
+    image: '/src/imports/image-29.png',
     metadata: {
       company: 'Mumbai T20',
       role: 'Product Designer',

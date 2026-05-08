@@ -24,8 +24,8 @@ export default function ModernContact() {
   ];
 
   return (
-    <section id="contact" className="py-20 px-6 bg-gray-50 dark:bg-[#141414] transition-colors duration-300">
-      <div className="max-w-[1100px] mx-auto">
+    <section id="contact" className="py-24 px-8 lg:px-16 bg-gray-50 dark:bg-[#141414] transition-colors duration-300">
+      <div className="max-w-[1300px] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -33,19 +33,19 @@ export default function ModernContact() {
           transition={{ duration: 0.8 }}
         >
           {/* Logo */}
-          <div className="mb-8">
-            <div className="text-3xl font-bold text-[#141414] dark:text-white transition-colors duration-300">SA</div>
+          <div className="mb-12">
+            <div className="text-4xl md:text-5xl font-bold text-[#141414] dark:text-white transition-colors duration-300">SA</div>
           </div>
 
-          <h2 className="text-[#141414] dark:text-white text-2xl md:text-3xl font-bold mb-4 transition-colors duration-300">
+          <h2 className="text-[#141414] dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-4 transition-colors duration-300">
             Let's Work Together
           </h2>
-          <p className="text-[#737373] dark:text-gray-400 text-sm max-w-2xl mb-10 transition-colors duration-300">
+          <p className="text-[#737373] dark:text-gray-400 text-base md:text-lg max-w-2xl mb-12 transition-colors duration-300">
             I'm always open to discussing new projects, creative ideas, or
             opportunities to be part of your vision.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl">
             {contactLinks.map((link, index) => {
               const Icon = link.icon;
               return (
@@ -63,15 +63,15 @@ export default function ModernContact() {
                   <div className="flex items-start gap-4">
                     <div className="p-3 bg-gray-100 dark:bg-gray-700 rounded-lg group-hover:bg-[#141414] dark:group-hover:bg-white transition-colors duration-300">
                       <Icon
-                        size={20}
+                        size={24}
                         className="text-[#141414] dark:text-white group-hover:text-white dark:group-hover:text-[#0a0a0a] transition-colors duration-300"
                       />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-[#737373] dark:text-gray-400 text-sm font-medium mb-1 transition-colors duration-300">
+                      <p className="text-[#737373] dark:text-gray-400 text-base font-medium mb-1 transition-colors duration-300">
                         {link.label}
                       </p>
-                      <p className="text-[#141414] dark:text-white font-semibold truncate transition-colors duration-300">
+                      <p className="text-[#141414] dark:text-white text-base font-semibold truncate transition-colors duration-300">
                         {link.value}
                       </p>
                     </div>

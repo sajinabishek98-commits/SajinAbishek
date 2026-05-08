@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ArrowLeft } from 'lucide-react';
 import { projectData } from '../data/projects';
+import IIMUDesignComponent from '../../imports/Group1707479481-1/Group1707479481';
 
 export default function ModernCaseStudyPage() {
   const { projectId } = useParams<{ projectId: string }>();
@@ -346,6 +347,18 @@ export default function ModernCaseStudyPage() {
         {/* IIMU Layout */}
         {isIIMU && (
           <>
+            {/* Design Component */}
+            <motion.section
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="mb-12"
+            >
+              <div className="w-full rounded-2xl overflow-hidden bg-white">
+                <IIMUDesignComponent />
+              </div>
+            </motion.section>
+
             {/* Context */}
             <motion.section
               initial={{ opacity: 0, y: 20 }}

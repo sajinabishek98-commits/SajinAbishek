@@ -10,18 +10,18 @@ export default function ModernHero() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center px-6 bg-white dark:bg-[#0a0a0a] transition-colors duration-300">
-      <div className="max-w-[1100px] mx-auto w-full">
-        <div className="space-y-6">
+    <section id="home" className="relative min-h-screen flex items-center justify-center px-8 lg:px-16 bg-white dark:bg-[#0a0a0a] transition-colors duration-300">
+      <div className="max-w-[1300px] mx-auto w-full">
+        <div className="space-y-8">
           {/* Small intro */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="inline-flex items-center gap-2 bg-gray-100 dark:bg-gray-800 rounded-full px-4 py-2 transition-colors duration-300"
+            className="inline-flex items-center gap-2 bg-gray-100 dark:bg-gray-800 rounded-full px-5 py-2.5 transition-colors duration-300"
           >
             <span className="size-2 bg-green-500 dark:bg-green-400 rounded-full animate-pulse" />
-            <span className="text-[#737373] dark:text-gray-400 text-sm font-medium">
+            <span className="text-[#737373] dark:text-gray-400 text-base font-medium">
               Available for new projects
             </span>
           </motion.div>
@@ -31,7 +31,7 @@ export default function ModernHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-[#141414] dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.1] tracking-tight transition-colors duration-300"
+            className="text-[#141414] dark:text-white text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1] tracking-tight transition-colors duration-300"
           >
             Product Designer crafting meaningful digital experiences
           </motion.h1>
@@ -41,7 +41,7 @@ export default function ModernHero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-[#737373] dark:text-gray-400 text-sm md:text-base leading-relaxed max-w-4xl transition-colors duration-300"
+            className="text-[#737373] dark:text-gray-400 text-lg md:text-xl leading-relaxed max-w-4xl transition-colors duration-300"
           >
             I'm Sajin Abishek, a Product Designer with 3 years of experience
             specializing in EdTech. I create user-centric solutions that drive
@@ -53,15 +53,15 @@ export default function ModernHero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="flex flex-wrap gap-4 pt-4"
+            className="flex flex-wrap gap-4 pt-6"
           >
             <button
               onClick={scrollToWork}
-              className="group px-8 py-4 bg-[#141414] dark:bg-white text-white dark:text-[#0a0a0a] rounded-full hover:bg-[#2a2a2a] dark:hover:bg-gray-200 transition-all font-medium inline-flex items-center gap-2"
+              className="group px-10 py-4 bg-[#141414] dark:bg-white text-white dark:text-[#0a0a0a] rounded-full hover:bg-[#2a2a2a] dark:hover:bg-gray-200 transition-all text-base font-medium inline-flex items-center gap-2"
             >
               View my work
               <ArrowDown
-                size={18}
+                size={20}
                 className="group-hover:translate-y-0.5 transition-transform"
               />
             </button>
@@ -70,7 +70,7 @@ export default function ModernHero() {
                 const element = document.querySelector('#contact');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="px-8 py-4 border-2 border-gray-200 dark:border-gray-700 text-[#141414] dark:text-white rounded-full hover:border-[#141414] dark:hover:border-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-all font-medium"
+              className="px-10 py-4 border-2 border-gray-200 dark:border-gray-700 text-[#141414] dark:text-white rounded-full hover:border-[#141414] dark:hover:border-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-all text-base font-medium"
             >
               Get in touch
             </button>

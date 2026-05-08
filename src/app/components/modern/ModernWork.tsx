@@ -27,36 +27,36 @@ export default function ModernWork() {
     {
       id: 'mca',
       title: 'MCA',
-      category: 'Course Management',
-      description: 'Student collaboration and organization platform',
+      category: 'Mobile App',
+      description: 'Real-time cricket score tracking and match analytics',
       year: '2025',
-      tags: ['UX/UI', 'Prototyping'],
+      tags: ['Mobile Design', 'Real-Time Data'],
       image: '/src/imports/image-25.png',
     },
   ];
 
   return (
-    <section id="work" className="py-20 px-6 bg-white dark:bg-[#0a0a0a] transition-colors duration-300">
-      <div className="max-w-[1100px] mx-auto">
+    <section id="work" className="py-24 px-8 lg:px-16 bg-white dark:bg-[#0a0a0a] transition-colors duration-300">
+      <div className="max-w-[1300px] mx-auto">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.8 }}
-          className="mb-12"
+          className="mb-16"
         >
-          <h2 className="text-[#141414] dark:text-white text-2xl md:text-3xl font-bold mb-4 transition-colors duration-300">
+          <h2 className="text-[#141414] dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-4 transition-colors duration-300">
             Selected Work
           </h2>
-          <p className="text-[#737373] dark:text-gray-400 text-sm max-w-2xl transition-colors duration-300">
+          <p className="text-[#737373] dark:text-gray-400 text-base md:text-lg max-w-2xl transition-colors duration-300">
             A collection of projects showcasing my approach to product design,
             user experience, and design systems.
           </p>
         </motion.div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-10">
           {projects.map((project, index) => (
             <motion.article
               key={project.id}
@@ -95,15 +95,15 @@ export default function ModernWork() {
               </div>
 
               {/* Content */}
-              <div className="p-6">
+              <div className="p-8">
                 <div className="mb-4">
-                  <p className="text-[#737373] dark:text-gray-400 text-xs font-semibold uppercase tracking-wider mb-2 transition-colors duration-300">
+                  <p className="text-[#737373] dark:text-gray-400 text-sm font-semibold uppercase tracking-wider mb-2 transition-colors duration-300">
                     {project.category} · {project.year}
                   </p>
-                  <h3 className="text-[#141414] dark:text-white text-xl font-bold mb-2 group-hover:text-[#141414] dark:group-hover:text-[#E4FE52] transition-colors duration-300">
+                  <h3 className="text-[#141414] dark:text-white text-2xl font-bold mb-2 group-hover:text-[#141414] dark:group-hover:text-[#E4FE52] transition-colors duration-300">
                     {project.title}
                   </h3>
-                  <p className="text-[#737373] dark:text-gray-400 text-sm leading-relaxed transition-colors duration-300">
+                  <p className="text-[#737373] dark:text-gray-400 text-base leading-relaxed transition-colors duration-300">
                     {project.description}
                   </p>
                 </div>
@@ -112,7 +112,7 @@ export default function ModernWork() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-3 py-1.5 bg-gray-100 dark:bg-gray-800 text-[#737373] dark:text-gray-400 text-xs font-medium rounded-lg border border-gray-200 dark:border-gray-700 transition-colors duration-300"
+                      className="px-4 py-2 bg-gray-100 dark:bg-gray-800 text-[#737373] dark:text-gray-400 text-sm font-medium rounded-lg border border-gray-200 dark:border-gray-700 transition-colors duration-300"
                     >
                       {tag}
                     </span>
