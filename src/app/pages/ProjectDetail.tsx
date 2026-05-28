@@ -59,8 +59,299 @@ export default function ProjectDetail() {
         expertise: 'UX/UI Design, Design Systems',
         year: '2024-2025',
       },
-      overview:
-        'Ken42 is a higher-ed platform used by students, faculty, and administrators to manage academic workflows. As an Associate Product Designer, I worked on redesigning a legacy system that had grown fragmented over time. The platform struggled with inconsistent experiences across portals, outdated UI patterns, and high friction in critical user journeys. The goal was not just visual improvement, but to restructure the experience into a scalable, efficient, and system-driven product.',
+      overview: `Revamping Ken42 — A Scalable Student Management Platform
+
+    Overview
+
+    Ken42 is a multi-module student management platform designed for educational institutions, enabling students to manage academics, payments, events, placements, hostel services, mentorship, and support workflows from a centralized system.
+
+    The platform included modules such as:
+
+    Home Dashboard
+
+    Fees & Payments
+
+    Exams
+
+    Events & Clubs
+
+    Service & Support
+
+    Placement Tracking
+
+    Hostel Management
+
+    Networking & Mentorship
+
+    However, the existing platform suffered from poor usability, fragmented navigation, and inconsistent user experiences across modules. Students struggled to complete onboarding, discover important payment information, and navigate critical workflows efficiently.
+
+    The goal was to completely revamp the platform within a strict 3-month timeline while also making the product scalable for future white-label implementations.
+
+    My Role
+
+    Product Designer
+
+    I was responsible for:
+
+    End-to-end product redesign
+
+    UX strategy and workflow optimization
+
+    Design system creation
+
+    Wireframing and UI design
+
+    Funnel analysis and usability improvements
+
+    Developer handoff and UI QA testing
+
+    Cross-functional collaboration with developers and stakeholders
+
+    The Challenge
+
+    The existing platform had major usability and scalability issues:
+
+    Complex onboarding experience with high drop-offs
+
+    Payment workflows buried under multiple navigation layers
+
+    Inconsistent UI patterns across modules
+
+    Poor information hierarchy
+
+    Low discoverability of important student actions
+
+    Tight 3-month redesign and launch timeline
+
+    Need for future white-label scalability
+
+    Additionally, the client initially requested a complete revamp of all modules within the same release cycle, which created significant scope and delivery challenges.
+
+    Research & Discovery
+
+    To understand the existing pain points, we conducted:
+
+    Competitive analysis of student ERP platforms
+
+    Workflow reviews across core modules
+
+    Funnel analysis on onboarding flows
+
+    Internal usability evaluations comparing old and redesigned experiences
+
+    Through funnel analysis, we identified that the highest onboarding drop-off occurred during Step 3, where students were required to fill extensive personal, academic, and certificate-related information before accessing the platform.
+
+    We also discovered that students struggled to locate and complete payment-related tasks due to deeply nested navigation and poor visibility of upcoming dues.
+
+    Problem 01 — Onboarding Friction
+
+    The onboarding flow required students to complete a large number of mandatory fields upfront, creating unnecessary friction early in the journey.
+
+    Key Issues
+
+    Too many required fields during registration
+
+    High drop-offs during onboarding Step 3
+
+    Long form completion time
+
+    Information overload for first-time users
+
+    Design Approach
+
+    Instead of collecting every detail during onboarding, we simplified the experience using progressive profiling.
+
+    We:
+
+    Removed non-essential fields from initial onboarding
+
+    Prioritized only critical information during account creation
+
+    Deferred secondary data collection contextually inside the platform
+
+    Introduced profile completion indicators after onboarding
+
+    For example:
+
+    Additional information was collected later during event registrations or payment workflows
+
+    Students received profile completion reminders through dashboard indicators
+
+    This reduced cognitive overload and allowed users to access the platform faster without sacrificing long-term data collection requirements.
+
+    Problem 02 — Payment Experience
+
+    The payment experience was one of the most critical usability issues within the platform.
+
+    Previously:
+
+    Students had to navigate through multiple layers to locate payments
+
+    Important dues lacked visibility
+
+    There was no prioritization for urgent or upcoming payments
+
+    Payment-related actions were difficult to discover
+
+    Design Decisions
+
+    To improve payment discoverability and reduce friction:
+
+    Upcoming payments were surfaced directly on the dashboard
+
+    Priority-based payment visibility was introduced
+
+    Students could immediately identify urgent dues
+
+    Payment reminders and notifications were added
+
+    Navigation depth for payment access was reduced
+
+    The redesigned experience helped students quickly understand:
+
+    What payment was due
+
+    When it was due
+
+    Which action required immediate attention
+
+    This significantly improved task clarity and reduced confusion around payment workflows.
+
+    Product Prioritization Under Tight Timelines
+
+    One of the biggest challenges during the project was balancing quality with delivery speed.
+
+    The client initially requested all modules to be redesigned and launched within a 3-month window. After evaluating the scope, we identified that delivering every module simultaneously would compromise overall product quality.
+
+    Instead of shipping incomplete experiences, we proposed a phased rollout strategy.
+
+    Phase 1 Focus
+
+    We prioritized high-impact core workflows:
+
+    Home Dashboard
+
+    Onboarding
+
+    Payments
+
+    Exams
+
+    Schedule Management
+
+    Service & Support
+
+    Phase 2 Focus
+
+    Secondary engagement modules were deferred:
+
+    Clubs & Activities
+
+    Networking
+
+    Mentorship
+
+    Events
+
+    This approach allowed the team to focus on delivering high-quality core experiences first rather than rushing every module into production.
+
+    Building a Scalable White-Label System
+
+    A major product goal was ensuring that the platform could support future institutional customization.
+
+    To support scalability:
+
+    A reusable design system was created
+
+    Component libraries were standardized
+
+    Typography and spacing systems were unified
+
+    Brand-dependent elements were isolated for easier customization
+
+    The platform was designed in a way that future institutions could adopt the system with minimal visual changes by simply updating brand assets such as:
+
+    Logos
+
+    Primary colors
+
+    Brand themes
+
+    After launch, the redesigned platform successfully supported multiple white-label implementations.
+
+    Design System
+
+    To maintain consistency across modules and speed up development:
+
+    I created:
+
+    Typography guidelines
+
+    Color systems
+
+    Reusable UI components
+
+    Form patterns
+
+    Navigation patterns
+
+    Dashboard components
+
+    Standardized spacing and layout systems
+
+    This significantly improved collaboration between design and development while ensuring visual consistency across the product ecosystem.
+
+    Collaboration & QA
+
+    Beyond design execution, I also worked closely with developers during implementation.
+
+    My responsibilities included:
+
+    Reviewing developed screens against Figma designs
+
+    Conducting UI validation testing
+
+    Identifying visual inconsistencies
+
+    Creating bug reports and QA sheets
+
+    Verifying functionality and interaction behavior
+
+    This helped maintain design quality throughout the development process and reduced UI inconsistencies before launch.
+
+    Outcome & Impact
+
+    The redesigned experience resulted in:
+
+    Increased onboarding completion by 4%
+
+    Reduced onboarding friction through progressive profiling
+
+    Improved payment discoverability through dashboard prioritization
+
+    Reduced payment completion effort and navigation complexity
+
+    Faster access to critical student workflows
+
+    Successful phased rollout under a tight 3-month timeline
+
+    Scalable white-label architecture adopted across multiple implementations
+
+    Key Learnings
+
+    This project reinforced the importance of:
+
+    Prioritizing core workflows over feature overload
+
+    Using progressive profiling to reduce onboarding friction
+
+    Designing scalable systems instead of isolated screens
+
+    Balancing business constraints with user experience quality
+
+    Collaborating closely with developers during implementation
+
+    One of the biggest takeaways from this project was understanding that successful product design is not only about creating visually polished interfaces, but also about making strategic decisions that improve usability, scalability, and delivery efficiency.`,
       problem:
         'The existing product had several usability and system-level challenges: fragmented user experience across multiple portals, outdated UI patterns that reduced usability, high friction in critical flows like login, navigation, and dashboard access, and lack of consistency across student, faculty, and admin interfaces. These issues resulted in longer task completion times, confusion, and reduced efficiency across user roles.',
       challenge:
